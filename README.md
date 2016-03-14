@@ -6,9 +6,10 @@
 
 ## [第一阶段学习笔记](http://ife.baidu.com/note/all)
 > 请把你认为* 有价值 *的学习笔记记录在下面
+
 1. [CSS绝对定位absolute和fixed](http://ife.baidu.com/note/detail?noteId=41)
-2. [][]
-3. [][]
+2. 
+3. 
 ...
 
 
