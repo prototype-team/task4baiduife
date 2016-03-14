@@ -12,7 +12,5 @@
 
 
 
-> 如果你不会Markdown的写法，可以参考
-[认识与入门 Markdown](http://sspai.com/25137)
-这篇教程
+> 如果你不会Markdown的写法，可以参考[认识与入门 Markdown](http://sspai.com/25137)这篇教程
 
