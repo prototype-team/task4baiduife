@@ -7,7 +7,7 @@
 
 | 任务\成员    | catting      | changingTime | sheldon      | tangith      | fpotato      |
 |:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
-| 任务01       |              |              |              |              | √            |
+| 任务01       |              |     √        |              |              | √            |
 | 任务02       |              |              |              |              |              |
 | 任务03       |              |              |              |              |              |
 | 任务04       |              |              |              |              |              |
@@ -26,7 +26,7 @@
 
 ***
 1. [CSS绝对定位absolute和fixed](http://ife.baidu.com/note/detail?noteId=41)
-2. 
+2. [textarea的注意点](http://www.monmonkey.com/rumenpian/html/textarea.html)
 3. 
 ...
 
