@@ -5,7 +5,7 @@
 ### [第一阶段任务列表](http://ife.baidu.com/task/all)
 > 小组成员任务完成情况
 
-|              | catting      | changingTime | sheldon      | tangith      | fpotato      |
+|成员          | catting      | changingTime | sheldon      | tangith      | fpotato      |
 | ------------ |:------------:|:------------:|:------------:|:------------:| ------------:|
 | 任务01       | √            |              |              |              |              |
 | 任务02       |              |              |              |              |              |
