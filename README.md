@@ -27,7 +27,8 @@
 ***
 1. [CSS绝对定位absolute和fixed](http://ife.baidu.com/note/detail?noteId=41)
 2. [textarea的注意点](http://www.monmonkey.com/rumenpian/html/textarea.html)
-3. 
+3. [语义化标签article与section的使用与区别] (http://www.yiiyaa.net/?p=1457)
+4.
 ...
 
 
