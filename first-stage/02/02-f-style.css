@@ -1,0 +1,197 @@
+body {
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+}
+h2, h3,  p.author {
+	font-family: "Microsoft YaHei";
+}
+h3,  p.author {
+	color: #666;
+}
+.heading {
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+.heading-logo {
+	display: inline-block;
+	width: 117px;
+	height: 38px;
+	background:  url("./02-f-baidu_logo.png") no-repeat 0 0;
+	margin:  11px 0 11px 40px;
+}
+.heading-navigation {
+	float: right;
+	list-style-type: disc;
+	margin: 20px;
+	padding: 0;
+}
+.heading-navigation li{
+	float: left;
+	margin-left: 20px;
+	font-family: "Microsoft YaHei";
+	font-size: 10px;
+	height: 20px;
+	line-height: 20px;
+}
+.heading-navigation li a {
+	color: #fff;
+	text-decoration: none;
+}
+.heading-navigation li a:hover, .heading-navigation li a:active {
+	color: red;
+}
+.article01 {
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 2px 2px 1px #666;
+	font-weight: bold;;
+}
+.article01 p.author {
+	font-weight: normal;
+}
+.article01 .text-body{
+	text-indent: 2em;
+	line-height: 2em;
+}
+.article01 .text-body img {
+	padding: 20px 0;
+}
+.article02 {
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 2px 2px 1px #666;
+	font-weight: bold;;
+}
+.article02 p.author {
+	font-weight: normal;
+}
+.article02 .text-body{
+	text-indent: 2em;
+	line-height: 2em;
+}
+.article02 .text-body img {
+	padding: 20px 0;
+}
+.article02 dd {
+	height: 2em;
+	line-height: 2em;
+}
+.images {
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 2px 2px 1px #666;
+	font-weight: bold;;
+}
+.images li {
+	width: 125px;
+	margin: 15px;
+	border: 1px solid #999;
+	font-size: 10px;
+	font-weight: normal;
+}
+.images span {
+	display: inline-block;
+	line-height: 35px;
+	height: 35px;
+	width: 125px;
+	text-align: center;
+}
+.images img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 0 12px 12px 12px;
+}
+.article03 {
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 2px 2px 1px #666;
+	font-weight: bold;;
+}
+.article03 p.author {
+	font-weight: normal;
+}
+.article03 ol li {
+	line-height: 2em;
+	height: 2em;
+}
+.article03 table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	width: 100%;
+}
+.article03 th, .article03 td {
+	border: 1px solid #ccc;
+	width: 30%;
+	padding: 0.4em 1em;
+}
+.article03 th {
+	background-color:  #333;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+.article03 .total {
+	background-color: #ccc;
+}
+.sidebar {
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+	padding: 15px 20px 20px 20px;
+	box-shadow: 2px 2px 1px #666;
+	font-weight: bold;;
+}
+.sidebar h3 {
+	color: #000;
+	border-left: 3px solid #ccc;
+	padding: 5px 0 5px 10px;
+}
+.sidebar form {
+	font-weight: normal;
+}
+.sidebar p {
+	margin-left: 300px;
+}
+.sidebar .tips {
+	color: #666;
+	text-indent: 8em;
+	margin-bottom: 2em;
+}
+.sidebar .submit {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(51, 85, 208);
+	border: none;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.sidebar .textarea-tips {
+	position: relative;
+	top: -4em;
+}
+.footing {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: white;
+	font-size: 0.7em;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.footing p {
+	text-align: center;
+}
