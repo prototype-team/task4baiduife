@@ -7,7 +7,7 @@
 
 | 任务\成员    | catting      | changingTime | sheldon      | tangith      | fpotato      |
 |:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
-| 任务01       |              |     √        |              |     √        | √            |
+| 任务01       |              |     √        |       √      |     √        | √            |
 | 任务02       |              |              |              |              | √            |
 | 任务03       |              |              |              |              | √            |
 | 任务04       |              |              |              |              | √            |
@@ -30,11 +30,9 @@
 3. [语义化标签article与section的使用与区别] (http://www.yiiyaa.net/?p=1457)
 4. [CSS居中完全指南](http://www.jianshu.com/p/2df4828adfd4)
 5. [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
-6. 
+6.
 ...
 
 
 
 > 如果你不会Markdown的写法，可以参考[认识与入门 Markdown](http://sspai.com/25137)这篇教程
-
-
