@@ -1,0 +1,46 @@
+p, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.content {
+	border: 1px solid #999;
+	background-color: #eee;
+	padding: 20px;
+	overflow: hidden;
+}
+.left {
+	width: 156px;
+	border: 2px solid #999;
+	padding: 20px;
+	background-color: white;
+	float: left;
+}
+.middle {
+	width: auto;
+	padding: 20px;
+	border: 2px solid #999;
+	background-color: white;
+	margin: 0 140px  0 220px;
+}
+.right {
+	width: 80px;
+	border: 2px solid #999;
+	padding: 18px;
+	float: right;
+	background-color: white;
+}
+.left p {
+	float: right;
+	color: rgb(255, 0, 123);
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #999;
+}
+
+.right li {
+	padding: 10px 0;
+}
