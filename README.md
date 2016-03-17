@@ -8,7 +8,7 @@
 | 任务\成员    | catting      | changingTime | sheldon      | tangith      | fpotato      |
 |:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
 | 任务01       |              |     √        |       √      |     √        | √            |
-| 任务02       |              |              |              |              | √            |
+| 任务02       |              |     √        |              |              | √            |
 | 任务03       |              |              |              |              | √            |
 | 任务04       |              |              |              |              | √            |
 | 任务05       |              |              |              |              | √            |
@@ -30,7 +30,9 @@
 3. [语义化标签article与section的使用与区别] (http://www.yiiyaa.net/?p=1457)
 4. [CSS居中完全指南](http://www.jianshu.com/p/2df4828adfd4)
 5. [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
-6.
+6.[Html5的input标签type属性](http://www.w3school.com.cn/html5/att_input_type.asp)
+[比较：html的input标签type属性](http://www.w3school.com.cn/tags/att_input_type.asp）
+
 ...
 
 
