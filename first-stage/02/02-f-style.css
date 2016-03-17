@@ -18,7 +18,7 @@ h3,  p.author {
 	display: inline-block;
 	width: 117px;
 	height: 38px;
-	background:  url("./02-f-baidu_logo.png") no-repeat 0 0;
+	background:  url("http://7xrt9d.com1.z0.glb.clouddn.com/baidu_logo.png") no-repeat 0 0;
 	margin:  11px 0 11px 40px;
 }
 .heading-navigation {
@@ -123,8 +123,19 @@ h3,  p.author {
 .sidebar form {
 	font-weight: normal;
 }
-.sidebar p {
-	margin-left: 300px;
+.sidebar span, .sidebar label {
+	display: inline-block;
+	width: 400px;
+	text-align: right;
+}
+.sidebar .tips {
+	color: #666;
+	margin-left: 280px;
+	margin-bottom: 2em;
+}
+.sidebar .textarea-tips {
+	position: relative;
+	top: -4em;
 }
 .sidebar .tips {
 	color: #666;
