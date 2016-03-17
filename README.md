@@ -9,7 +9,7 @@
 |:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
 | 任务01       |              |     √        |       √      |     √        | √            |
 | 任务02       |              |     √        |              |              | √            |
-| 任务03       |              |              |              |              | √            |
+| 任务03       |              |     √        |              |              | √            |
 | 任务04       |              |              |              |              | √            |
 | 任务05       |              |              |              |              | √            |
 | 任务06       |              |              |              |              |              |
@@ -30,7 +30,8 @@
 3. [语义化标签article与section的使用与区别] (http://www.yiiyaa.net/?p=1457)
 4. [CSS居中完全指南](http://www.jianshu.com/p/2df4828adfd4)
 5. [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
-6. 
+6. [title和alt的区别](http://www.phpwind.net/read/2006363)
+7. [html代码中宽度的自适应](http://zhidao.baidu.com/link?url=A4Uzqy5A3-Lu6oO5PiuRqeDeoOEcCReRZFcepI9pQmmhoysSFHH6wEwy1RXcaeB4FKU-JsLoHqUoKzNNkefXVtcd__PmeFg4LVQauB3h2pm)
 ...
 
 
