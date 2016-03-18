@@ -136,29 +136,32 @@ header .header-right {
 	color: #75b86b;
 	font-size: 116px;
 	font-style: oblique;
-	text-align: left;
 	position: relative;
 	left: -20px;
 }
 .sidebar .middle {
 	color: #cc8091;
 	font-size: 55px;
+	position: relative;
+	top: -20px;
 }
 .sidebar .small {
 	color: #cc8091;
 	font-size: 21px;
 	position: relative;
-	top: -12px;
+	top: -30px;
 }
 .sidebar .tips {
 	color: #676767;
 	font-size: 12px;
 	position: relative;
-	top: -34px;
+	top: -51px;
 	left: 84px;
 }
 .bottom-container {
-	margin-top: 70px;
+	margin-top: 50px;
+	overflow: hidden;
+
 }
 .bottom-container article {
 	width: 415px;
@@ -186,9 +189,150 @@ header .header-right {
 	font-size: 33px;
 }
 .bottom-container article p {
-	padding: 30px 0;
 	color: #767777;
-	font-family: ;
+	font-family: "SimSun";
 	font-size: 12px;
 	line-height: 16px;
+}
+.bottom-container article .first-p {
+	padding-top: 20px;
+}
+.bottom-container article p span {
+		font-size: 70px;
+		color: #f5e327;
+		font-family: "Microsoft YaHei";
+		float: left;
+		padding: 25px 15px 30px 0;
+}
+.bottom-container article img {
+	float: right;
+	padding: 20px 10px 10px 20px ;
+}
+.bottom-container article .indent {
+	text-indent: 2em;
+}
+.navigation  {
+	position: relative;
+}
+.navigation .tips {
+	position: absolute;
+	width: 458px;
+	height: 61px;
+	background-color: rgba(144, 144, 144, 0.6);
+	top: 197px;
+	left: 0;
+	font-family: "Microsoft YaHei";
+}
+.navigation .tips p {
+	width: 405px;
+	height: 44px;
+	line-height: 44px;
+	margin: 8px 0 8px 30px;
+	border-left: 3px solid #72b16a;
+	color: #fff;
+	font-size: 26px;
+	padding-left: 10px;
+}
+.navigation .tips p span {
+	font-size: 12px;
+	color: #72b16a;
+	font-style: oblique;
+	word-spacing: 140%;
+	padding-left: 10px;
+}
+.navigation .dir {
+	width: 459px ;
+	height: 	318px;
+	background-color: rgb(237, 235, 212);
+	margin-top: 30px;
+	padding-top: 20px;
+	position: relative;
+}
+.navigation .dir .dir-p1{
+	font-size: 16px;
+	text-align: left;
+	color: #5a5a5b;
+	font-family: "SimSun";
+	line-height: 50px;
+	padding-left: 30px;
+	height: 158px;
+}
+.navigation .dir p:first-child span {
+	color: #5a5b5b;
+	font-size: 12px;
+	font-style: oblique;
+	text-align: right;
+}
+.navigation .dir p:first-child i {
+	display: inline-block;
+	font-style: normal;
+	color: #11456b;
+	font-size: 12px;
+	padding-right: 1em;
+}
+.navigation .dir .one {
+	width:  260px;
+	height: 160px;
+	background-color: rgb(209, 94, 95);
+	padding-left: 20px;
+}
+.navigation .dir .one span {
+	font-family: "Microsoft YaHei";
+	font-size: 110px;
+	color: #fff;
+	position: relative;
+	top: 5px;
+}
+.navigation .dir .one div {
+	height: 86px;
+	text-align: left;
+	float: right;
+	margin: 37px 10px 37px 0;
+	border-left: 2px solid #fff;
+	padding-left: 15px;
+}
+.navigation .dir .one div p {
+	color: #fff;
+	font-family:  "SimHei";
+}
+.navigation .dir .one div p:first-child {
+	font-size: 21px;
+	font-style: initial;
+	line-height: 24px;
+}
+.navigation .dir .one div p:last-child {
+	font-size: 12px;
+	line-height: 18px;
+}
+.navigation .dir .dir-p2 {
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: "SimHei";
+	line-height: 16px;
+	width: 199px;
+	text-indent: 3em;
+	position: absolute;
+	top: 199px;
+	right: -25px;
+}
+.navigation .dir .dir-p2 span {
+	font-size: 72px;
+	color: #d45d5c;
+	line-height: 72px;
+	position: absolute;
+}
+.navigation .dir .dir-p2 .span1{
+	top: -10px;
+	right: 168px;
+}
+.navigation .dir .dir-p2 .span2 {
+	right: -1px;
+}
+footer {
+	border-top: 1px solid #938e8c;
+	text-align: right;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: #d45d5c;
+	margin-top: 40px; 
 }
