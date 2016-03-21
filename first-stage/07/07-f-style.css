@@ -103,7 +103,18 @@ header ul a.login {
 .banner .banner-img {
 	height: 854px;
 	width: 100%;
-	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/banner.png) no-repeat 0 0;	
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/banner.png) no-repeat 0 0;
+	z-index: 1;
+}
+.banner .img-2 {
+	height: 690px;
+	width: 1280px;
+	background-color: #000;
+	opacity: 0.2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 .banner .banner-text {
 	position: absolute;
@@ -113,6 +124,7 @@ header ul a.login {
 	left: 114px;
 	font-family: "Microsoft YaHei";
 	color: #fff;
+	z-index: 3;
 }
 .banner .banner-text h1 {
 	font-size: 60px;
