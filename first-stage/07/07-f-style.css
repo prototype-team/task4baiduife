@@ -1,0 +1,678 @@
+/*css reset*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0;
+}
+body, button, input, select, textarea {
+	font: 12px/1.5 tahoma, arial, \5b8b\4f53; 
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+address, cite, dfn, em, var {
+	font-style: normal;
+}
+code, kbd, pre, samp {
+	font-family: couriernew, courier, monospace;
+}
+small {
+	font-size: 12px;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+legend {
+	color: #000;
+}
+fieldset, img {
+	border: 0;
+}
+button, input, select, textarea {
+	font-size: 100%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css style*/
+body {
+	width: 1280px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	height: 56px;
+}
+header p {
+	font: 21px/32px "SimHei";
+	height: 32px;
+	margin: 12px 50px;
+	padding-left: 37px;
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -179px;
+	display: inline-block;
+}
+header ul {
+	float: right;
+}
+header ul li{
+	float: left;
+}
+header ul a {	
+	display: inline-block;
+	padding: 0 22px;
+	height: 53px;
+	border-bottom: 3px solid #fff;
+	color: #666;
+	font: 14px/53px "Microsoft YaHei";
+}
+header ul a:hover {
+	color: #f66;
+	border-bottom-color: #f66;
+	text-decoration: none;
+}
+header ul a.on {
+	color: #f66;
+	border-bottom-color: #f66;
+}
+header ul a.login {
+	height: 18px;
+	line-height: 18px;
+	margin: 18px 42px 0 0;
+	padding: 0 22px 17px 40px;
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 20px 0;
+	color: #f66;
+}
+.container {
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	position: relative;
+}
+.banner .banner-img {
+	height: 854px;
+	width: 100%;
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/banner.png) no-repeat 0 0;	
+}
+.banner .banner-text {
+	position: absolute;
+/*	height: 264px;*/
+	width: 460px;
+	top: 205px;
+	left: 114px;
+	font-family: "Microsoft YaHei";
+	color: #fff;
+}
+.banner .banner-text h1 {
+	font-size: 60px;
+	line-height: 106px;
+	font-weight: normal;
+}
+.banner .banner-text p {
+	font-size: 21px;
+	line-height: 31px;
+	padding-left: 10px;
+}
+.banner .banner-text  a {
+	display: inline-block;
+/*	box-sizing: border-box;*/
+	font-size: 30px;
+	line-height: 30px;
+	height: 30px;
+	width: 130px;
+	background-color: #e84f4d;
+	margin: 60px 0 0 10px;
+	padding: 16px 100px;
+	color: #fff;
+}
+.banner .banner-text  a:hover {
+	color: #333;
+}
+.banner ul {
+	height: 250px;
+	width: 1280px;
+	margin-top: -164px;
+	background-color: #fff;
+}
+.banner ul li {
+	float: left;
+	width: 320px;
+	height: 250px;
+}
+.banner ul li span {
+	display: inline-block;
+	height: 41px;
+	width: 42px;
+	margin: 43px 139px 44px 139px;
+}
+.banner ul li.tips01 span{
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -330px;
+}
+.banner ul li.tips02 span{
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -210px;
+}
+.banner ul li.tips03 span{
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -250px;
+}
+.banner ul li.tips04 span{
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -290px;
+}
+.banner ul li p {
+	font: 14px/1 "SimHei";
+	width: 154px;
+	text-align: center;
+	padding: 0 82px 22px 82px;
+	margin-bottom: 72px;
+	color: #8d8d8d;
+	border-right: 2px solid #8d8d8d;
+}
+.banner ul li.tips04 p {
+	padding: 0 83px 22px 83px;
+	border-right: none;
+}
+.banner .banner-questions {
+	width: 1280px;
+	height: 360px;
+	background-color: #ededed;
+}
+.banner .banner-questions span {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	margin: 90px 595px 44px 595px;
+	background: #ededed url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -372px;
+}
+.banner .banner-questions p {
+	font: 54px/1 "SimHei";
+	color: #8d8d8d;
+	width: 1280px;
+	height: 54px;
+	text-align: center;
+}
+.container .activity-select {
+	width: 1030px;
+	height: 154px;
+	padding: 52px 125px 133px 125px;
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/map.png) no-repeat  0 0;
+	font-family: "Microsoft YaHei";
+}
+.container .activity-select h1 {
+	font-size: 21px;
+	color: #fff;
+	text-align: center;
+	line-height: 21px;
+	height: 21px;
+}
+.container .activity-select span {
+	display: block;
+	height: 3px;
+	width: 32px;
+	background-color: #fff;
+	margin: 10px auto 20px auto;
+}
+.container .activity-select p {
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	height: 12px;
+	padding-bottom: 52px;
+}
+.activity-select select{
+	width: 235px;
+	height: 36px;;
+	margin-right: 30px;
+	border: none;
+	padding: 10px 0 10px 10px;
+	color: #999;
+	font-size: 12px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 135px -26px;
+	outline: none;
+	float: left;
+}
+/*.activity-select select option {
+	width:233px;
+	height: 24px;
+	background-color: #e4e3e5;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 5px 10px 10px 10px;
+}*/
+.activity-select input {
+	width: 235px;
+	height: 36px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #be4e48;
+	border: none;
+	font-weight: bold;
+}
+.activity-select input:hover {
+	color: #333;
+}
+.container .activity-show {
+	width: 1280px;
+	height: 606px;
+	background-color: #f7f7f7;
+}
+.activity-show div{
+	float: left;
+	width: 218px;
+	height: 390px;
+	padding: 102px 19px 0 19px;
+}
+.activity-show div.bj-show {
+	padding-left: 150px;
+}
+.activity-show div span {
+	display: inline-block;
+	width: 216px;
+	height: 335px;
+	border: 1px solid #e0e0e0;
+}
+.activity-show div.bj-show span {
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/photo-album_01.png) no-repeat 7px 12px;
+}
+.activity-show div.sh-show span {
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/photo-album_02.png) no-repeat 7px 12px;
+}
+.activity-show div.sz-show span {
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/photo-album_03.png) no-repeat 7px 12px;
+}
+.activity-show div.xg-show span {
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/photo-album_04.png) no-repeat 7px 12px;
+}
+.activity-show div h1 {
+	width: 218px;
+	text-align: center;
+	font-size: 16px;
+	height: 36px;
+	line-height: 36px;
+	color: #000;
+}
+.activity-show div p {
+	width: 218px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+	color: #9f9f9f;
+}
+.activity-show div.sh-show h1 {
+	font-size: 24px;
+	height: 24px;
+	line-height: 24px;
+	padding-top: 4px;
+	letter-spacing: 30px;
+	position: relative;
+	left: 14px;
+}
+.activity-show div.sh-show p {
+	line-height: 28px;
+	height: 28px;
+}
+.new-world {
+	height: 567px;
+	width: 1280px;
+}
+.new-world .world-show {
+	height: 437px;
+	width: 371px;
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/new-world.png) no-repeat 0 0;
+	padding: 130px 240px 0 240px;
+	font-family: "Microsoft YaHei";
+	color: #fff;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+.new-world .world-show h1 {
+	font-size: 50px;
+	line-height:  50px;
+	height: 50px;
+	padding-bottom: 8px;
+	font-weight: normal;
+}
+.new-world .world-show h2 {
+	font-size: 158px;
+	line-height: 113px;
+	height: 113px;
+	padding-bottom: 28px;
+	font-weight: normal;
+}
+.new-world .world-show p {
+	font-size: 22px;
+	line-height: 42px;
+	text-align: left;
+	padding-left: 110px;
+}
+.new-world .world-show a {
+	display: inline-block;
+	background: url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -99px;
+	position: absolute;
+	height: 31px;
+	width: 26px;
+	top: 268px;
+	right: -1px;
+}
+.new-world .world-select {
+	width: 291px;
+	float: right;
+	margin: 164px 70px 164px 0;
+	font: 20px/60px "Microsoft YaHei";
+}
+.new-world .world-select h1 {
+	height: 60px;
+	text-align: center;
+}
+.new-world .world-select h1 span {
+	color: #e74f4d;
+	padding-left: 5px;
+}
+.new-world .world-select  p {
+	font: 12px/28px "SimSun";
+	color: #9f9f9f;
+}
+.new-world .world-select a.more {
+	display: inline-block;
+	height: 32px;
+	width: 104px;
+	margin: 42px  93px 24px 92px;
+	color: #e4666a;
+	border: 1px solid #e4666a;
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+
+}
+.world-select a.more:hover {
+	color: #fff;
+	background-color: #e4666a;
+}
+.new-world .world-select  .button {
+	width: 55px;
+	margin: 0 auto;
+}
+.new-world .world-select .button span {
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	border: 1px solid #9f9f9f;
+	border-radius: 5px;
+	margin-right: 6px;
+}
+.new-world .world-select .button span.last {
+	margin-right: 0;
+}
+.new-world .world-select .button .on {
+	background-color: #929292;
+}
+.new-time .time-left, .new-time .time-middle {
+	float: left;
+	width: 425px;
+	height: 347px;
+	font: 21px/29px "SimHei";
+	text-align: center;
+   	padding-top: 174px;
+}
+.new-time .time-left {
+	background-color: #e74f4d;
+	color: #fff;
+}
+.time-left span, .time-middle span {
+	display:  block;
+	height: 3px;
+	width: 32px;
+	margin: 19px auto 23px auto;
+}
+.time-left span {
+	background-color: #fff;
+}
+.time-middle span {
+	background-color: #999;
+}
+.time-left a, .time-middle a {
+	display: inline-block;
+	width: 166px;
+	height: 42px;
+	border: 1px solid #fff;
+	color: #fff;
+	line-height: 42px;
+}
+.time-left a:hover {
+	background-color: #fff;
+	color: #e74f4d;
+}
+.time-middle a:hover {
+	background-color: #e74f4d;
+	border-color: #fff;
+	color: #fff;
+}
+.time-middle a {
+	color: #000;
+	border-color: #000;
+}
+.time-right {
+	background: #fff url(http://7xrt9d.com1.z0.glb.clouddn.com/new-time.png) no-repeat 0  0;
+	height: 521px;
+	width: 430px;
+	margin-left: 850px;
+	position: relative;
+}
+.time-right  span{
+	display:  block;
+	height: 31px;
+	width: 26px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -67px;
+	position: absolute;
+	top: 230px;
+	left: -1px;
+}
+.time-right span:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.join-our {
+	height: 750px;
+	width: 1002px;
+	margin: 0 auto;
+}
+.join-our .join-head {
+	padding-top: 110px;
+	text-align: center;
+}
+.join-our .join-head h1 {
+	font: 21px/37px "SimHei";
+	height: 37px;
+}
+.join-our .join-head span {
+	display: block;
+	height: 2px;
+	width: 30px;
+	margin: 0 auto 11px auto;
+	background-color: #e74f4d;
+}
+.join-our .join-head p {
+	font: 12px/18px "Microsoft YaHei";
+	color: #9f9f9f;
+	margin-bottom: 100px;
+}
+.join-our .join-content {
+	height: 750px;
+}
+.join-content .join-text {
+	width: 312px;
+	text-align: left;
+	display: inline-block;
+}
+.join-text h1{
+	font: 14px/20px "SimHei";
+	padding-bottom: 19px;
+}
+.join-text p, .join-text a{
+	font: 12px/20px "SimSun";
+	color: #9f9f9f;
+	width: 288px;
+}
+.join-text a {
+	display: inline-block;
+	text-align: right;
+}
+.join-text a i {
+	font-size: 1px;
+	letter-spacing: 5px;
+	font-style: normal;
+}
+.join-text h1:first-child {
+	padding-bottom: 18px;
+}
+.join-text a:first-child {
+	padding-bottom: 30px;
+}
+.join-text h1:last-child {
+	padding-bottom: 6px;
+	padding-top: 13px;
+}
+.join-text a:hover {
+	color:  #e74f4d;
+	cursor: pointer;
+}
+.join-content  form {
+	float: right;
+	width: 674px;
+}
+.join-content input {
+	height: 40px;
+	width: 294px;
+	background-color: #ededee;
+	margin: 0 0 14px 17px;
+	padding-left: 16px;
+	color: #9f9f9f;
+	font: 12px/40px "SimSun";
+	border: none;
+}
+.join-content textarea {
+	height: 120px;
+	width: 604px;
+	background-color: #ededee;
+	margin: 0 0 14px 17px;
+	font: 12px/40px "SimSun";
+	color: #9f9f9f;
+	padding: 0 18px;
+	border: none;
+}
+.join-content input:last-child {
+	color: #333;
+	text-align: center;
+	width: 640px;
+}
+.join-content input:last-child:hover {
+	background-color:  #e74f4d;
+	color: #fff;
+}
+.contact-us {
+	height: 358px;
+	width: 1280px;
+	background-color: #32363e;
+}
+.contact-us h1 {
+	font: 21px/35px "SimHei";
+	text-align: center;
+	height: 35px;
+	padding-top: 84px;
+	color: #fff;
+}
+.contact-us p {
+	font: 12px/18px "SimSun";
+	text-align: center;
+	color: #fff;
+	padding-bottom: 27px	;
+}
+.contact-us form {
+	height: 40px;
+	margin: 0 auto;
+	width: 510px;
+}
+.contact-us form input:first-child {
+	width: 420px;
+	height: 14px;
+	padding: 13px 0 13px 10px;
+	font: 14px/14px "Microsoft YaHei";
+	color: #9f9f9f;
+	border: none;
+}
+.contact-us form input:last-child {
+	float: right;
+	width: 60px;
+	height: 40px;
+	font: 15px/40px "Microsoft YaHei";
+	background-color: #9f9f9f;
+	color: #fff;
+	border: none;
+	letter-spacing: 10px;
+	padding-left: 20px;
+}
+.contact-us form input:last-child:hover {
+	background-color:  #e74f4d;
+	color: #fff;
+}
+.contact-us a {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	margin: 36px  27px 0 0;
+}
+.contact-us .a1{
+	margin-left: 548px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -17px;
+}
+.contact-us .a2 {
+	width: 29px;
+	margin-right: 22px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -129px;
+}
+.contact-us .a3 {
+	width: 29px;
+	margin-right: 22px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -154px;
+}
+.contact-us a:last-child {
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/css-sprite.png) no-repeat 0 -42px;
+}
+footer {
+	width: 1280px;
+	height: 56px;
+	background-color: #303039;
+}
+footer p {
+	display:  inline-block;
+	font: 12px/12px "SimSun";
+	height: 12px;
+	padding: 28px 0 0 98px;
+	color: #fff;
+}
+footer a {
+	float: right;
+	display: inline-block;
+	height: 12px;
+	font: 12px/12px "SimSun";
+	padding: 28px 38px 0 0;
+	color: #fff;
+}
+footer a:hover {
+	color: #e74f4d;
+}
