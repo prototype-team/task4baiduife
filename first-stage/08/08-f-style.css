@@ -19,7 +19,7 @@ body, div , p{
 }
 .container .row div {
 	box-sizing: border-box;
-	-webkit-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	padding: 20px 20px 20px 0;
 	float: left;
 }
