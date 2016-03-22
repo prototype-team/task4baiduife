@@ -3,6 +3,7 @@ body, div , p{
 	padding: 0;
 }
 .container {
+	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
 	border: 1px solid #999;
@@ -13,23 +14,22 @@ body, div , p{
 	content: " ";
 	clear: both;
 }
-.container  .row {
+.row {
 	margin-left: 20px;
-	width: 780px;
 }
-.container .row div {
+.row div {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	padding: 20px 20px 20px 0;
 	float: left;
+	padding: 20px 20px 20px  0;
 }
 .container div p {
-	height: 41px;
 	border: 1px solid #999;
 	background-color: #eee;
 	font: 8px/20px "SimSun";
 	color: red;
 	padding: 7px 0 0 10px;
+	height: 42px;
 }
 .col-1 {width: 8.333%;}
 .col-2 {width: 16.666%;}
