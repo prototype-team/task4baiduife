@@ -1,0 +1,30 @@
+<!DOCTYPE  html>
+<html lang="zh-cmn-Hans">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="X-UA-Compatible" content="IE=edge" />
+		<title>task02_13</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="keywords" content="balabala" />
+		<meta  name="description" content="balabala" />
+		<meta name="author"  content="balabala" />
+	</head>
+	<body>
+		<label for="aqi-input">请输入北京今天空气质量：<input type="text" id="aqi-input"></label>
+		<button id="button">确认输入</button>
+		<div>您输入的值是：<span>尚未录入</span></div>
+		<script type="text/javascript">
+			(function() {
+				window.onload = function() {
+					var input  = document.getElementById("aqi-input");
+					var button = document.getElementById("button");
+					var span = document.getElementsByTagName("span")[0];
+					button.onclick = function() {
+						span.innerHTML  = input.value;
+						
+					};
+				}
+			})();			
+		</script>
+	</body>
+</html>
