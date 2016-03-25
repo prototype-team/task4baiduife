@@ -1,4 +1,4 @@
-# task4baiduife
+﻿# task4baiduife
 > 百度前端技术学院 2016年春季班 prototype小组任务代码地址
 
 
@@ -10,7 +10,7 @@
 | 成员\任务    | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
 |:------------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | catting      |    |    |    |    |    |    |    |    |    |    |    |    |
-| changingTime | √  | √  | √  |    |    |    |    |    |    |    |    |    |    
+| changingTime | √  | √  | √  |  √ |    |    |    |    |    |    |    |    |    
 | sheldon      | √  |    |    |    |    |    |    |    |    |    |    |    |
 | tangith      | √  |    |    |    |    |    |    |    |    |    |    |    |
 | fpotato      | √  | √  | √  | √  | √  | √  | √  | √  |    |    |    |    | 
@@ -38,6 +38,10 @@
 5. [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
 6. [title和alt的区别](http://www.phpwind.net/read/2006363)
 7. [html代码中宽度的自适应](http://zhidao.baidu.com/link?url=A4Uzqy5A3-Lu6oO5PiuRqeDeoOEcCReRZFcepI9pQmmhoysSFHH6wEwy1RXcaeB4FKU-JsLoHqUoKzNNkefXVtcd__PmeFg4LVQauB3h2pm)
+8.[CSS如何设置html table表格边框样式]( http://www.divcss5.com/wenji/w503.shtml)
+9.[表格上下居中 ](http://bbs.csdn.net/topics/360008038)
+10.[浮动闭合最佳方案](http://www.daqianduan.com/3606.html)
+
 ...
 
 
