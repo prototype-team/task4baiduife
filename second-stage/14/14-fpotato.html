@@ -25,22 +25,14 @@
 						["成都", 90],
 						["西安", 100]
 					],
-					len = aqiData.length,
-					ul = document.getElementById("aqi-list");
-					for ( var i = 0; i < len; i++) {
-						var cache;
-						for (var j = 0; j < len; j++) {
-							if ( aqiData[i][1] > aqiData[j][1] ) {
-								cache = aqiData[i];
-								aqiData[i] = aqiData[j];
-								aqiData[j] = cache;
-							}
-						}
-					}
-					for (var j = 0; j < len; j++) {
-						var textUl = (function() {
-							var number = " ";
-							switch(j) {
+					ul = document.getElementById("aqi-list"),
+					ulText = "", number = "";
+					aqiData.filter( function(item, index, array) {
+						return item[1] > 60;
+					}).sort( function( arr1, arr2) {
+						return arr2[1] - arr1[1];
+					}) .forEach(function(item, index, array) {
+						switch(index) {
 								case 0: number = "一";
 								break;
 								case 1: number = "二";
@@ -49,17 +41,12 @@
 								break;
 								case 3: number = "四";
 								break;
-								case 4: number = "五";
-								break;
-								case 5: number = "六";
-								break;
 							}
-							return "第" + number + "名：" + aqiData[j][0] + "，"  + aqiData[j][1];
-						})();
-						ul.innerHTML += "<li>" + textUl + "</li>";
-					}
+						ulText +=  "<li>第" + number + "名：" + item[0] + "，"  + item[1] + "</li>";
+					});
+					ul.innerHTML = ulText;
 				}
-			})();
+			})();	
 		</script>
 	</body>
 </html>
