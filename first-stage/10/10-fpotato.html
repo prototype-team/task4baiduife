@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+	<head>
+		<meta charset="utf-8" />
+		<title>task01_10</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			.flex-container {
+				display: flex;
+				flex-flow: row wrap;
+				display: -webkit-flex;
+				-webkit-flex-flow: row wrap;
+				border: 1px solid #999;
+			}
+			.flex-container div {
+				width: 150px;
+				box-sizing: border-box;
+				border: 1px solid #f00;
+			}
+			.first-item {
+				height: 120px;
+			}
+			.second-item {
+				height: 100px;
+			}
+			.third-item {
+				height: 40px;
+			}
+			.flex-container .fourth-item {
+				height: 200px;
+				border-color: blue;
+			}
+			@media screen and (min-width: 640px) {
+				.flex-container {
+					width: 720px;
+					padding: 40px 20px;
+					align-items: center;
+					justify-content: space-between;
+				}
+			}
+			@media screen and (max-width: 640px) {
+				.flex-container {
+					width: 570px;
+				}
+				.flex-container div {
+					margin:20px;
+				}
+				.flex-container .fourth-item {
+					order: -1;
+					margin-bottom: 0;
+					align-items: flex-start;
+					-webkit-align-items: flex-start;
+					justify-content: space-between;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="first-item"></div>
+			<div class="second-item"></div>
+			<div class="third-item"></div>
+			<div class="fourth-item"></div>
+		</div>
+	</body>
+</html>
