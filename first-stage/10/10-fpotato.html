@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+	<head>
+		<meta charset="utf-8" />
+		<title>task01_10</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			.flex-container {
+				border: 1px solid #999;
+				padding: 20px;
+				display: flex;
+				flex-flow: row nowrap;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.flex-container div {
+				width: 150px;
+				border: 1px solid #f00;
+				flex: 0  0 150px;
+			}
+			.first-item {
+				height: 120px;
+			}
+			.second-item {
+				height: 100px;
+			}
+			.third-item {
+				height: 40px;
+			}
+			.flex-container .fourth-item {
+				height: 200px;
+				border-color: blue;
+			}
+			@media screen and (max-width: 640px) {
+				.flex-container  {
+					flex-flow: row wrap;
+					align-items: flex-start;
+					justify-content: space-between;
+				} 
+				.fourth-item {
+					order: -1;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="first-item">1</div>
+			<div class="second-item">2</div>
+			<div class="third-item">3</div>
+			<div class="fourth-item">4</div>
+		</div>
+	</body>
+</html>
