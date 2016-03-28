@@ -48,20 +48,19 @@ window.onload = function() {
 	}
 	//渲染aqi-table表格
 	function renderAqiList() {
-		
+		var tableText = "<tr><td>城市</td><td>空气质量</td><td>操作</td></tr>";
 		for(index in aqiData) {
-			aqiTable.innerHTML += '<tr><td>' + index + '</td><td>' +
+			tableText += '<tr><td>' + index + '</td><td>' +
 			aqiData[index] + '</td><td><button>删除</button></td></tr>';
 		} 
+		aqiTable.innerHTML = tableText;
 	}
 	function addBtnHandle() {
-		aqiTable.innerHTML = "";
 		addAqiData();
 		renderAqiList();
 	}
 	//点击删除城市数据
 	function delBtnHandle(item) {
-		aqiTable.innerHTML = "";
 		delete aqiData[item];
 		renderAqiList();
 	}
