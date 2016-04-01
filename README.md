@@ -44,8 +44,8 @@
 11. [ES5中新增的Array方法详细说明](http://www.zhangxinxu.com/wordpress/2013/04/es5%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/)
 12. [js正则表达式语法](http://blog.csdn.net/zaifendou/article/details/5746988)
 13. [看看国外的javascript题目,你能全部做对吗?](http://www.cnblogs.com/aaronjs/p/3172112.html)
-14. [overflow:hidden; 的解释 1简单易懂](http://www.pc6.com/infoview/Article_51111_all.html),
-    [ 2 含扩展阅读 ](http://www.divcss5.com/rumen/r414.shtml)，
+14. [overflow:hidden; 的解释 1 简单易懂](http://www.pc6.com/infoview/Article_51111_all.html),
+    [ 2 含扩展阅读 ](http://www.divcss5.com/rumen/r414.shtml),
     [ 3 含该属性阅读](http://www.zhangxinxu.com/wordpress/tag/overflowhidden/)
 
 ...
