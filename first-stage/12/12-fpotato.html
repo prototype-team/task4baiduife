@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+	<head>
+		<meta charset="utf-8"  />
+		<title>Task01_12</title>
+		<meta  http-equiv="X-UA-Compatible" content="IE=edge, chrome=1 " />
+		<meta name="viewport" content="width=device-width, initial-scale-1, maximum-scale=1, minimun-scale=1, user-scalable=no" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}	
+			table {
+				border-collapse: collapse;
+				margin: 2em;
+				padding: 0;
+				font: 16px/1 "HeiTi";
+				font-weight: bold;
+			}
+			table thead {
+				background-color: #000;
+				color: #fff;
+			}
+			thead td:nth-child(2) {
+				border-left: 1px solid #fff;
+				border-right: 1px solid #fff;
+			}
+			table tr:nth-of-type(2), table tr:nth-of-type(4),  table tr:nth-of-type(6),  table tr:nth-of-type(8),  table tr:nth-of-type(10) {
+				background-color: #ccc;
+			}
+			table tr td:nth-child(2) {
+				border-left: 1px solid #fff;
+				border-right: 1px solid #fff;
+			}
+			table tr[class^="tip"] {
+				color: red;
+			}
+			input {
+				width: 100px;
+			 	margin-left: 50px;
+				transition: width 2s, margin-left 2s;
+				transition-property: width;
+				transition-duration: 2s;
+				transition-timing-function: linear;
+				transition-delay: 2s;
+				-webkit-transition: width 2s, margin-left 2s;
+			}
+			input:focus {
+				width: 200px;
+				margin-left: 0;
+				overflow: hidden;
+			}
+			.container-outer {
+				width: 200px;
+				height: 100px;
+				overflow: hidden;
+				position: relative;
+			}
+			.container-inner {
+				width: 600px;
+				height: 100px;
+			}
+			.container-inner div {
+				width: 200px;
+				height: 100px;
+				float: left;
+			}
+			.container-inner div:first-of-type {
+				background-color: rgba(255, 0, 0, 1);
+			}
+			.container-inner div:nth-child(2) {
+				background-color:rgba(0, 255, 0, 1);
+			}
+			.container-inner div:last-of-type {
+				background-color: rgba(0, 0, 255, 1);
+			}
+			.container-outer span[class^="tips"] {
+				position: absolute;
+				bottom: 0;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				font-weight: bold;
+				display: inline-block;
+				background-color: rgba(255, 255, 255, 0.7);
+				color:  #fff;
+			}
+			.container-outer .tips01 {
+				right: 44px;
+			}
+			.container-outer  .tips02 {
+				right: 21px;
+				padding: 0 1px;
+			}
+			.container-outer .tips03 {
+				right: 0;
+			}
+			@keyframes myfirst {
+				0% {  margin-left: 0; }
+				25% { margin-left: -200px; }
+				50%   { margin-left: -400px; }
+				75%   { margin-left: -200px; }
+				100%   { margin-left:  0px; }
+
+			}
+			.container-inner {
+				animation: myfirst 6s ease-out infinite;
+			}
+			.tips01:target~.container-inner {
+				margin-left: 0;
+			}
+			.tips02:target~.container-inner {
+				margin-left: -200px;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<td>排名</td>
+				<td>网站</td>
+				<td>热度</td>
+			</thead>
+			<tr class="tip01">
+				<td>1.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr class="tip02">
+				<td>2.</td>
+				<td>百度前端技术学院</td>
+				<td>12000</td>
+			</tr>
+			<tr class="tip03">
+				<td>3.</td>
+				<td>百度前端技术学院</td>
+				<td>11000</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>百度前端技术学院</td>
+				<td>10000</td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>百度前端技术学院</td>
+				<td>9000</td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>百度前端技术学院</td>
+				<td>8000</td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>百度前端技术学院</td>
+				<td>7000</td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>百度前端技术学院</td>
+				<td>6000</td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>百度前端技术学院</td>
+				<td>5000</td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>百度前端技术学院</td>
+				<td>4000</td>
+			</tr>
+		</table>
+		<input type="text" /><br/><br/>
+		<div class="container-outer">
+			<span class="tips01">1</span><span class="tips02">2</span><span class="tips03">3</span>
+			<div class="container-inner">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</body>
+</html>
