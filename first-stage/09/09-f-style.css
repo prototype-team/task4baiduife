@@ -25,7 +25,7 @@ header {
 	background-color: #2189bf;
 	overflow: hidden;
 }
-h1 {
+header h1 {
 	float: left;
 	width: 36px;
 	height: 36px;
@@ -73,3 +73,191 @@ header .login {
 	outline: none;
 	cursor: pointer;
 }
+.body-container {
+	width: 100%;
+	overflow: hidden;
+}
+.body-container nav {
+	width: 260px;
+	float: left;
+	background-color: #2a2e3d;
+	height: 1000px;
+}
+nav  .name {
+	width: 125px;
+	height: 60px;
+	padding: 20px 0 45px 25px;
+}
+nav .name em {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #fff;
+	float: right;
+	padding: 18px 0;
+}
+nav .name span {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: 1px solid #bababe;
+}
+nav .name i {
+	display: inline-block;
+	margin: 6px;
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: #bababe;
+}
+nav .collection {
+	display: inline-block;
+	font-size: 13px;
+	color: #525f71;
+	padding: 0 30px 0 60px;
+	margin-bottom: 25px;
+	width: 30px;
+	text-align: center;
+	border-right: 1px solid #525f71;
+}
+nav .collection i {
+	font-style: normal;
+	font-size: 15px;
+} 
+nav .fans {
+	display: inline-block;
+	font-size: 13px;
+	color: #525f71;
+	padding: 0 0 25px 30px;
+	width: 30px;
+	text-align: center;
+}
+nav .fans i {
+	font-style: normal;
+	font-size: 15px;
+}	
+.personal-report {
+	box-sizing: border-box;
+	height: auto;
+	width: 260px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 35px;
+	color: #525f71;
+	padding: 10px 60px 10px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_910.png) no-repeat 40px  20px;
+}
+.personal-report li[class^="file"] {
+	padding-left: 40px;
+	display: none;
+	background: #383d4e url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_9120.png) no-repeat 0 2px;
+}
+.personal-report li p {
+	display: none;
+	padding-left: 30px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_911.png) no-repeat 12px 12px;
+}
+.personal-report:hover {
+	color: #ccc;
+	background-color: #383d4e;
+	background-image: url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_9101.png);
+}
+.personal-report:hover li {
+	color: #525f71;
+	display: block;
+}
+.personal-report li:hover {
+	color: #ccc;
+	background-image: url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_9121.png);
+
+}
+.personal-report li:hover p {
+	color: #525f71;
+	display: block;
+}
+.personal-report li p:hover {
+	color: #ccc;
+	background-image: url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_9111.png);
+}
+nav div p {
+	box-sizing: border-box;
+	height: auto;
+	width: 260px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 12px;
+	color: #525f71;
+	padding-left: 60px;
+	margin: 40px 0;
+}
+nav div p:hover {
+	color: #ccc;
+}
+nav div p:nth-child(1) {
+	margin: 21px  0 40px;
+	line-height: 11px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_09.png) no-repeat 40px  -60px;
+}
+nav div p:nth-child(2) {
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_09.png) no-repeat 40px  -12px;
+}
+nav div p:nth-child(3), nav div p:nth-child(4){
+	margin:41px 0;
+	line-height: 11px;
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_09.png) no-repeat 40px  -60px;
+}
+nav div p:nth-child(5) {
+	background: transparent url(http://7xrt9d.com1.z0.glb.clouddn.com/task01_09.png) no-repeat 40px  -24px;
+}
+.main-body {
+	margin-left: 260px;
+	width:1020px;
+	background-color: #eee;
+}
+.main-body .tab {
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+	padding-left: 20px;
+	color: #b7b7b7;
+	font-size: 12px;
+	font-weight: bold;
+}
+.main-body .tab span {
+	padding: 0 10px;
+}
+.main-body .tab span:hover {
+	color: #2189bf;
+}
+.main-body .seach {
+	box-sizing: border-box;
+	margin: 20px 60px 0 60px;
+	border: 1px solid #ddd;
+	width: 900px;
+	background-color: #fff;
+	padding: 10px 110px 10px 30px;
+	color: #999;
+	font-size: 12px;
+	height: auto;
+}
+.main-body  .seach select {
+	height: 23px;
+	line-height: 23px;
+	font-size: 12px;
+	padding-right:10px;
+	color: #000;
+}
+.main-body .seach select:first-of-type {
+	margin: 0  35px 0 15px;
+}
+.main-body .seach .buyer-seller {
+	display: inline-block;
+	padding: 0 60px 0 20px;
+}
+.main-body .seach .buyer-seller select {
+
+}
+
+
