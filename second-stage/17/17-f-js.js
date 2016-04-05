@@ -43,7 +43,7 @@ window.onload = function () {
 
 	function randomColor() {
 		function randomStr() {
-			return	(Math.ceil(Math.random() * 17) + '').replace("10", "a").replace("11", "b").replace("12", "c").replace("13", "d").replace("14", "e").replace("15", "f")
+			return	(Math.ceil(Math.random() *9));
 		}
 		return '#' + randomStr() + randomStr() + randomStr();
 	}
