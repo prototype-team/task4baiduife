@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>第一阶段任务 - 06</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		body{background-color: #eee;}
+		.mainbody{
+			width: 980px;
+			height: 1386px;
+			background-color:#fff;
+			margin: 20px auto;
+		}
+		.top{
+			width: 892px;
+			height: 63px;
+			margin: 0 auto;
+			border-bottom: 2px solid #938E8C;
+			box-sizing: border-box;
+		}
+		.topred{
+			width: 110px;
+			height: 61px;
+			background-color: #d45d5c;
+		}
+		.toplogo{
+			font-size: 12px;
+			color: #fff;
+			font-family: 黑体;
+			float: left;
+			position: relative;
+			bottom: 16px;
+			left: 2px;
+		}
+		.topdate{
+			font-size: 12px;
+			color: #d45d5c;
+			font-family: 黑体;
+			float: right;
+			position: relative;
+			bottom: 16px;
+		}
+		.body1{
+			width: 892px;
+			height: 300px;
+			margin:30px 44px;
+		}
+		.body1_left{
+			width: 640px;
+			height: 300px;
+			background-image: url(task_1_6_1_03.jpg);
+			float: left;
+		}
+		.body1_left .green{
+			width: 191px;
+			height: 300px;
+			float: left;
+			opacity: 0.2;
+			background-color: green;
+		}
+		.body1_left .red{
+			width: 191px;
+			height: 300px;
+			float: right;
+			opacity: 0.2;
+			background-color: red;
+		}
+		.body1_right{
+			width: 203px;
+			height: 300px;
+			float: right;
+		}
+		.body1_right hr{
+			width: 203px;
+			height: 2px;
+			background-color: #d45d5c;
+		}
+		.body1_right .about,.body1_right .tech{
+			font-size: 24px;
+			color: #000;
+			font-family: "微软雅黑";
+			line-height: 40px;
+			text-decoration: underline;
+			font-variant: small-caps;
+			text-transform: capitalize;
+		}
+		.body1_right .atlong{
+			font-size: 12px;
+			color: #676767;
+			font-family: "楷体";
+			line-height: 10px;
+		}
+		.body1_right .seven{
+			font-size: 116px;
+			color: #75b86b;
+			font-family: "微软雅黑";
+			font-style: oblique;
+			position: relative;
+			left: -20px;
+		}
+		.body1_right .three{
+			font-size: 55px;
+			color: #cc8091;
+			font-family: "微软雅黑";
+			position: relative;
+			top: -20px;
+		}
+		.body1_right .css{
+			font-size: 21px;
+			color: #cc8091;
+			font-family: "微软雅黑";
+			position: relative;
+			left: 80px;
+			top: -67px;
+		}
+		.body1_right .csslong{
+			font-size: 12px;
+			color: #938E8C;
+			font-family: "微软雅黑";
+			position: relative;
+			top: -75px;
+			left: 80px;
+		}
+		.body2{
+			width: 892px;
+			margin:40px 44px;
+			overflow: hidden;
+		}
+		.body2 .wen{
+			width: 250px;
+			float: left;
+		}
+		.body2 .wen .what{
+			font-size: 16px;
+			color: #418c59;
+			font-family: "微软雅黑";
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		.body2 .wen .when{
+			font-size: 16px;
+			color: #d2994f;
+			font-family: "微软雅黑";
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		.body2 .wen .how{
+			font-size: 16px;
+			color: #cc7680;
+			font-family: "微软雅黑";
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		.body2 .wen .arc{
+			font-size: 12px;
+			color: #767777;
+			font-family: "宋体";
+			line-height: 16px;
+			margin-right: 20px;
+		}
+		.body2 .wen .endp{
+			font-size: 12px;
+			color: #231815;
+			font-family: "微软雅黑";
+			line-height: 25px;
+			opacity: 0.7;
+			position: relative;
+			top: 55px;
+
+		}
+		.body2 .wen .endp .num{
+			font-size: 12px;
+			color: #cc7680;
+			font-family: "微软雅黑";
+			font-style: oblique;
+			line-height: 16px;
+			opacity: 0.7;
+		}
+		.body3{
+			width: 892px;
+			margin:40px 44px;
+			overflow: hidden;
+		}
+		.body3 .body3_left{
+			width: 415px;
+			float: left;
+		}
+		.body3 .body3_left .bigtitle .the{
+			font-size: 72px;
+			color: #f5e327;
+			font-family: "黑体";
+			font-style: oblique;
+			font-weight: bold;
+			line-height: 50px;
+		}
+		.body3 .body3_left .bigtitle{
+			font-size: 42px;
+			color: #11456b;
+			font-family: "黑体";
+			font-weight: bold;
+			line-height: 38px;
+		}
+		.body3 .body3_left .smalltitle{
+			font-size: 33px;
+			color: #11456b;
+			font-family: "黑体";
+			font-weight: bold;
+		}
+		.body3 .body3_left hr{
+			width: 415px;
+			height: 3px;
+			background-color: #11456b;
+			margin-bottom: 20px;
+		}
+		.body3 .body3_left .txt{
+			font-size: 12px;
+			color: #767777;
+			font-family: "宋体";
+			line-height: 16px;
+		}
+		.body3 .body3_left .txt .qian{
+			font-size: 70px;
+			color: #f5e327;
+			font-family: "微软雅黑";
+			float: left;
+			line-height: 70px;
+			margin: 2px;
+		}
+		.body3 .body3_left .txt img{
+			float: right;
+			margin: 15px 0 15px 15px;
+		}
+		.body3 .body3_left .txxt{
+			font-size: 12px;
+			color: #767777;
+			font-family: "宋体";
+			line-height: 16px;
+			text-indent: 2em;
+		}
+		.body3 .body3_right{
+			width: 458px;
+			float: right;
+		}
+		.body3 .body3_right .heihei{
+			width: 458px;
+			height: 61px;
+			background-color: black;
+			opacity: 0.4;
+			position: relative;
+			top: -65px;
+		}
+		.body3 .body3_right .xia{
+			height: 44px;
+			width: 300px;
+			border-left: 3px solid #72b16a;
+			position: relative;
+			top: -118px;
+			left: 40px;
+		}
+		.body3 .body3_right .xia .baise{
+			font-size: 26px;
+			color: #fff;
+			font-family: "微软雅黑";
+			position: relative;
+			top: 5px;
+			left: 10px;
+		}
+		.body3 .body3_right .xia .luse{
+			font-size: 12px;
+			color: #72b16a;
+			font-style: oblique;
+			font-family: "微软雅黑";
+			letter-spacing: 140%;
+			position: relative;
+			top: -15px;
+			left: 120px;
+		}
+		.body3 .body3_right .rbottom{
+			width: 459px;
+			height: 318px;
+			background-color: #EEEED6;
+			position: relative;
+			top: -70px;
+		}
+		.body3 .body3_right .rbottom .liebiao{
+			list-style-image: url("liststyle.png");
+			padding-top: 20px;
+			padding-left: 55px;
+			line-height: 40px;
+			font-size: 16px;
+			font-family: "宋体";
+			text-align: left;
+		}
+		.body3 .body3_right .rbottom .youduiqi{
+			font-size: 12px;
+			color: #5a5b5b;
+			font-family: "宋体";
+			text-align: right;
+			font-style: oblique;
+		}
+		.body3 .body3_right .rbottom .redblock{
+			width: 260px;
+			height: 160px;
+			background-color: #D55D5C;
+			position: absolute;
+			bottom: 0px;
+		}
+		.body3 .body3_right .rbottom .redblock .borderleft{
+			height: 86px;
+			border-left: 2px solid #fff;
+			position: relative;
+			top: -110px;
+			left: 80px;
+		}
+		.body3 .body3_right .rbottom .redblock .zero{
+			font-size: 110px;
+			color: #fff;
+			font-family: "微软雅黑";
+			position: relative;
+			top: 5px;
+			left: 5px;
+		}
+		.body3 .body3_right .rbottom .redblock .longhello{
+			font-style: oblique;
+			font-size: 14px;
+			position: relative;
+			top: -300px;
+			right: -280px;
+			font-family: "黑体";
+			line-height: 16px;
+			width: 150px;
+			text-indent: 36px;
+		}
+		.body3 .body3_right .rbottom .redblock .yinghaol{
+			font-size: 72px;
+			font-family: "黑体";
+			color: #D45D5C;
+			position: relative;
+			top: -240px;
+			left: 240px;
+		}
+		.body3 .body3_right .rbottom .redblock .yinghaor{
+			font-size: 72px;
+			font-family: "黑体";
+			color: #D45D5C;
+			position: relative;
+			top: -315px;
+			left: 395px;
+		}
+		.body3 .body3_right .rbottom .redblock .borderleft .onetwo{
+			font-size: 21px;
+			color: #fff;
+			line-height: 24px;
+			position: relative;
+			font-family: "黑体";
+			font-style: oblique;
+			left: 5px;
+		}
+		.body3 .body3_right .rbottom .redblock .borderleft .hello{
+			font-size: 12px;
+			font-family: "黑体";
+			color: #fff;
+			line-height: 16px;
+			position: relative;
+			left: 10px;
+		}
+		.mainbody .foot{
+			width: 892px;
+			border-top: 1px solid #938e8c;
+			position: relative;
+			top: -80px;
+			margin: 0 auto;
+		}
+		.mainbody .foot p{
+			font-size: 12px;
+			color: #d45d5c;
+			font-family: "黑体";
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="mainbody">
+			<div class="top">
+				<div class="topred"></div>
+				<p class="toplogo">ief.baidu.com</p>
+				<p class="topdate">2016.04</p>
+			</div>
+			<div class="body1">
+				<div class="body1_left">
+					<div class="green"></div>
+					<div class="red"></div>
+				</div>
+				<div class="body1_right">
+					<hr>
+					<p class="about">about</p>
+					<p class="tech">technologe</p>
+					<p class="atlong">about technologe about technologe about technologe</p>
+					<p class="seven">700</p>
+					<p class="three">3.2</p>
+					<p class="css">CSS</p>
+					<p class="csslong">csscsscsscsscss</p>
+				</div>
+			</div>
+			<div class="body2">
+				<div class="wen">
+					<p class="what">What</p>
+					<p class="arc">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+				</div>
+				<div class="wen">
+					<p class="when">When</p>
+					<p class="arc">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+				</div>
+				<div class="wen">
+					<p class="how">How</p>
+					<p class="arc">前端前端前端前端前端</p>
+					<p class="arc">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+					<p class="endp">What-------<span class="num">40%</span></p>
+					<p class="endp">What-------<span class="num">30%</span></p>
+					<p class="endp">What-------<span class="num">30%</span></p>
+				</div>
+			</div>
+			<div class="body3">
+				<div class="body3_left">
+					<p class="bigtitle"><span class="the">THE</span> TECHNOLOGE OF FRONT</p>
+					<p class="smalltitle">前端技术领域</p>
+					<hr>
+					<p class="txt"><span class="qian">前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端<img src="task_1_6_1_07.jpg" alt="task_1_6_1_07.jpg">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+					<p class="txxt">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+					<p class="txxt">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+				</div>
+				<div class="body3_right">
+					<img src="task_1_6_1_04.jpg" alt="task_1_6_1_04.jpg">
+					<div class="heihei">
+					</div>
+					<div class="xia">
+						<p class="baise">前端技术</p>
+						<p class="luse">前端技术前端技术</p>
+					</div>
+					<div class="rbottom">
+						<ul class="liebiao">
+							<li class="lbiao">
+								前端前端前端前端前端前端 ..................<span class="youduiqi">前端</span>
+							</li>
+							<li class="lbiao">
+								前端前端前端前端 ........................<span class="youduiqi">前端前</span>
+							</li>
+							<li class="lbiao">
+								前端前端前端前端前端前端前端 ..............<span class="youduiqi">前端</span>
+							</li>
+						</ul>
+						<div class="redblock">
+							<p class="zero">0</p>
+							<div class="borderleft">
+								<p class="onetwo">ONE TWO<br>THREE FORE FIVE</p>
+								<p class="hello">
+								hello word hello word<br>hello word
+								</p>
+							</div>
+							<span class="yinghaol">“</span>
+							<p class="longhello">hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word</p>
+							<span class="yinghaor">”</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<p>ife.baidu.com</p>
+			</div>
+	</div>
+</body>
+</html>

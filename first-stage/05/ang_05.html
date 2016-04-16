@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>第一阶段任务 - 05</title>
+		<style type="text/css">
+
+	*{padding: 0px;margin: 0px;}/*清除默认样式*/
+	body{
+		min-width: 850px;
+	}
+	
+/* header */
+		header{
+			background-color: #333;
+			height: 100px;
+			}
+
+		nav div{
+			float: left;
+			margin:10px;
+
+		}
+
+		.link{
+			list-style: none;
+			float: right;
+			color: 000;
+			line-height:100px;
+		}
+
+		.link li{
+			display: inline-block;
+			margin-right: 20px;
+		}
+
+		.link li a{
+			color: #fff;
+			height: inherit;
+			display: inline-block;
+			text-decoration: none;
+		}
+
+
+/* article */	
+
+		#mainbody{
+			background-color: #DEDEDE;
+			width: 100%;
+			overflow: hidden;	/*清除浮动*/
+		}
+
+		article{
+			padding: 20px; 
+			min-width: 300px;
+			margin: 20px 450px 20px 40px;
+			background-color: #fff; 
+			box-shadow: 2px 2px 2px #aaa;
+			line-height: 1.5em;
+			overflow: auto;
+		}
+
+		article p{
+			text-indent: 2em;
+		}
+
+		article h1{
+			line-height: 1.5em;
+		}
+
+		article h2{
+			font-size: 1em; 
+			color: #777
+		}
+
+        article h3{
+        	font-size: 12px; 
+        	color: #777
+        }
+        .bigpic{
+        	width: 70%;
+        	margin: 10px auto;
+        }
+/*图片*/
+        .item{
+        	list-style-type: none;
+        }
+		.pic-list img{
+						max-width: 100px;
+					}
+		.pic-list{list-style: none}
+        .pic-list li{
+        	width: 120px;
+        	border: 1px #ccc solid;
+        	box-sizing: border-box;
+        	padding: 0 10px 10px 10px;
+        	text-align: center;
+        	margin: 20px;
+        	float: left;
+        }
+        .pic-list h1{
+        	font-size: 12px;
+        	font-weight: normal
+        }
+
+/* 表格 */
+        table{
+        	border: 0;
+        	width: 100%;
+        	border-collapse: collapse
+        }
+        td, th{
+        	border: 0;
+        	padding: 5px;
+        	border: 1px #ccc solid;
+        }
+        th{
+        	background: #333;
+        	color: #fff;
+        	text-align: left
+        }
+        tr:last-child{
+        	background: #ccc;
+        	font-weight: bold
+        }
+        #rank{
+        	margin: 0 30px;
+        }
+
+
+/*侧边栏*/
+		aside{
+			background: #fff;
+			float: right;
+			width: 350px;
+			margin-top: 20px;
+			margin-right: 20px;
+			padding: 20px;
+			box-shadow: 2px 2px 2px #aaa;
+			font-size: 12px;
+
+		}
+
+        aside h2{
+        	border-left: 3px #ccc solid;
+        	line-height: 2em;
+        	padding-left: 10px;
+        	margin: 0;
+        }
+        aside input, aside textarea{
+        	border: 1px #999 solid;
+        	outline: none;
+        }
+        aside input{
+        	padding: 3px;
+        }
+
+        aside form > div{
+        	margin: 10px 0;
+        }
+        aside .input-title{
+        	width: 30%; display: inline-block;
+        	vertical-align: top;
+        	text-align: right;
+        	margin-right: 10px;
+        }
+        aside .input-tip{
+        	margin-left: 30%;
+        	padding-left: 10px;
+        }
+        aside textarea{
+        	height: 50%;
+        	width: 200px;
+        }
+
+        aside button{
+        	background: rgb(28, 99, 221);
+        	line-height: 3em;
+        	border-radius: 5px; border: 0;
+        	outline: none;
+        	color: #fff;
+        	width: 100%;
+        }
+
+/* footer */
+		footer{
+			background: #000;
+			line-height: 50px;
+			color: #fff;
+			text-align: center;
+
+		}
+
+	</style>
+</head>
+<body>
+	<header><!-- 导航区 -->
+		<nav><!-- 结构化-->
+			<div><img src="http://ife.baidu.com/asset/img/logo.png" alt="logo"/></div><!--这里准备放logo-->
+			<ul class="link"><!--用无无序列表制作导航菜单-->
+				<li><a href="#">导航链接一</a></li>
+				<li><a href="#">导航链接二</a></li>
+				<li><a href="#">导航链接三</a></li>
+				<li><a href="#">导航链接四</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="mainbody">
+
+		<aside>
+			<h2>这里以后是个侧栏，这是侧栏的标题</h2>
+	        <form action="" method="post">
+	            <div>
+	            	<div class="input-title">请输入邮箱地址: </div>
+	            	<input type="email" name="email" placeholder="这是一个文本输入框"/>
+	            </div>
+	            <div class="input-tip">邮箱地址请按照要求格式输入 </div>
+	            <div>
+	            	<div class="input-title">请输入密码:</div>
+	            	<input type="password" name="password" placeholder="这是一个文本输入框"/>
+	            </div>
+	            <div>
+	            	<div class="input-title">请重复输入密码:</div>
+	            	<input type="password" name="repassword" placeholder="这是一个文本输入框"/>
+	            </div>
+	            <div class="input-tip">密码为6-16位英文数字</div>
+
+	            <div>
+	            	<div class="input-title">性别: </div>
+	            	<label for="gender1"><input type="radio" name="gender" id="gender1" value="nan"/>男</label>
+	            	<label for="gender2"><input type="radio" name="gender" id="gender2" value="nv"/>女</label>
+	            </div>
+	            <div>
+	            	<div class="input-title">城市: </div>
+	            	<select name="city" >
+	                	<option value="beijing">北京</option>
+	                	<option value="shanghai">上海</option>
+	               		<option value="dalian">大连</option>
+	                </select>
+	            </div>
+
+	            <div>
+	            	<div class="input-title">爱好:</div>
+	            	<label for="aihao1"><input type="checkbox" name="aihao[]" id="aihao1" value="sport"/>运动</label>
+	                <label for="aihao2"><input type="checkbox" name="aihao[]" id="aihao2" value="art"/>艺术</label>
+	                <label for="aihao3"><input type="checkbox" name="aihao[]" id="aihao3" value="science"/>科学</label>
+	            </div>
+
+	            <div>
+	            	<div class="input-title">个人描述: </div>
+	            	<textarea name="describe">这是一个多行输入框，输入您的个人描述</textarea>
+	            </div>
+	            <div>
+	            	<button type="submit">确认提交</button>
+	            </div>
+	        </form>
+		</aside>
+
+		<article>
+			<h1>文章的一级标题</h1>
+			<h2>文章的二级标题</h2>
+			<h3>文章作者和文章发表时间</h3>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/></p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/></p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/">这里有一个链接</a><b>这里还有粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+			<img class="bigpic" src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/></p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/" target="_blank">新窗口</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+		</article>
+
+		<article>
+			<h1>另一篇文章的一级标题</h1>
+			<h2>文章的二级标题</h2>
+			<h3>文章作者 文章发表时间</h3>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/></p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/></p>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/" target="_blank">新窗口</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+			<img class="bigpic" src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+			<ul class="item">
+                <li>项目列表一</li>
+                <li>项目列表二</li>
+                <li>项目列表三</li>
+            </ul>
+		</article>
+
+		<article>
+			<h1>图片</h1>
+            <ul class="pic-list">
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+                <li>
+                    <h1>好看的图片</h1>
+                    <img src="https://mmbiz.qlogo.cn/mmbiz/4aY8G03IYiaC23gDudJylRN1aGDAgKHLtBKsOmrc6XoQxJnmichgjCibdV28qqJHyPFPtHcpGC9mXicAJvu3F1WfEw/0?wx_fmt=jpeg"/>
+                </li>
+            </ul>
+		</article>
+
+		<article>
+			<h1>最后一篇文章一级标题</h1>
+            <h2>文章二级标题</h2>
+            <h3>文章作者 文章发表时间</h3>
+
+            <ol id="rank">
+                <li>排名1</li>
+                <li>排名2</li>
+                <li>排名3</li>
+            </ol>
+
+            下面是一个表格
+            <table border="1">
+                <thead>
+                    <tr><th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th></tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td class="total">总计</td>
+                    <td class="total" colspan="2">1000</td>
+                </tr>
+                </tbody>
+            </table>
+		</article>
+
+
+	</div>
+	<footer>版权所有&copy;</footer>
+</body>
+</html>
